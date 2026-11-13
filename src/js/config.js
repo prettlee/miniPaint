@@ -394,6 +394,22 @@ config.TOOLS = [
 		},
 	},
 	{
+		name: 'ring',
+		visible: false,
+		attributes: {
+			hole_size: {
+				value: 50,
+				min: 5,
+				max: 95,
+			},
+			border_size: 4,
+			border: true,
+			fill: true,
+			border_color: '#555555',
+			fill_color: '#aaaaaa',
+		},
+	},
+	{
 		name: 'text',
 		on_update: 'on_params_update',
 		attributes: {
